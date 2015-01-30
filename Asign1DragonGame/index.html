@@ -11,10 +11,10 @@
         <div id="intro" class="step slide">
             <!--First Decision Level-->
             <div class="slide-text">
-                <p>You are on a planet full of dragons. In front of you,</p>
-                <p>you see two caves. In one cave, the dragon is friendly</p>
-                <p>and will share his treasure with you. The other dragon</p>
-                <p>is greedy and hungry, and will eat you on sight.</p>
+                <p>You are running away from several ninjas. In front of you,</p>
+                <p>now are two caves. You don't know what to expect inside of them</p>
+                <p>but you need to make a decision right away before the </p>
+                <p>ninjas catch you</p>
                 <br />
                 <p>Which cave do you go into?</p>
                 <p><a href="#cave1">CAVE 1</a></p>
@@ -25,25 +25,25 @@
         <!--Second Decision Level-->
         <div id="cave1" class="step slide" data-x="-1500">
             <div class="slide-text">
-                <p>You approach the cave, it is dark and spooky.</p>
-                <p>You find out two path, one with huge snakes and the other one free but...</p>
-                <p>... some screams can be heard coming from that path</p>
+                <p>You approach the cave, it is dark and scary.</p>
+                <p>You find out two path, one with huge snakes and</p>
+                <p> the other without obstacles... some screams can be heard coming from that path</p>
+                <br />
                 <p>Which path do you go into?</p>
+                <p><a href="#11path1">PATH 1 with snakes</a></p>
+                <p>or</p>
+                <p><a href="#12path2">PATH 2 with screams</a></p>
+                
 <!--            <p>A large red dragon jumps out in front of you!</p>
             <p>He opens his jaws and...</p>
             <br />
             <p>Gobbles you down with one bite!</p>-->
             </div> 
-            <div class="menu">
-                <p><a href="#path1">PATH 1 with snakes</a></p>
-                <p><a href="#path2">PATH 2 with screams</a></p>
-                <!--<a href="#intro">START OVER</a>-->
-            </div> 
         </div> 
         
         <div id="cave2" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You approach the cave, it is bright and cheerful.</p>
+                <p>You approach the cave, you can hear the ninjas comming behind you</p>
                 <p>Now you need to decide wich way to take</p>
                <!-- <p>A large white dragon approaches you...</p>
                 <p>And gives you his treasure.</p>-->
@@ -58,31 +58,33 @@
         </div>
 
          <!--Third Decision Level-->
-        <div id="path1" class="step slide" data-x="-3000">
+        <div id="11path1" class="step slide" data-x="-3000">
             <div class="slide-text">
                 <p>You are in front of the huge snakes</p>
                 <p>How can you continue the path?</p>
-                <p></p>
-            </div> 
-            <div class="menu">
-                <a href="#fightsnakes">FIGHT THE SNAKES</a>
-                <a href="#jumpsnakes">JUMP THE SNAKES</a>
-                <!--<a href="#intro">START OVER</a>-->
+                 <a href="#111fightsnakes">Fighting the snakes</a>
+                <p>or</p>
+                <a href="#112jumpsnakes">Trying to jump the snakes</a>
+               
             </div> 
         </div>
 
-          <div id="path2" class="step slide" data-x="-3000">
+          <div id="12path2" class="step slide" data-x="-4500">
             <div class="slide-text">
-                <p>CAVE 2.2</p>
-                <p>.</p>
+                <p>Now you now where the screams are coming from...</p>
+                <p>the red dragon has a hostage!</p>
                 <p></p>
+                 <a href="#122rescueHostage">Would you help to rescue the hostage</a>
+                <p>or</p>
+                <a href="#121runAway">would you run away?</a>
             </div> 
             <div class="menu">
                 <a href="#intro">START OVER</a>
             </div> 
         </div>
+
         <!--Result slides-->
-         <div id="fightsnakes" class="step slide" data-x="-4500">
+         <div id="111fightsnakes" class="step slide" data-x="-6000">
             <div class="slide-text">
 
             <p>You fought with the snakes and defeat them</p>
@@ -98,13 +100,13 @@
             </div> 
         </div>
 
-            <div id="jumpsnakes" class="step slide" data-x="-4500">
+            <div id="112jumpsnakes" class="step slide" data-x="-7500">
             <div class="slide-text">
 
-            <p>Jump as far and high as you can </p>
+            <p>Jumped as far and high as you could </p>
             <p>but suddenly... </p>
             <br />
-            <p>a Poisonous snake bite you</p>
+            <p>a Poisonous snake bite you!</p>
                 
                 <p></p>
             </div> 
@@ -112,6 +114,34 @@
                 <a href="#intro">START OVER</a>
             </div> 
         </div>
+
+            <div id="122rescueHostage" class="step slide" data-x="-4500" data-y="-1000">
+            <div class="slide-text">
+
+            <p>You try to rescue the hostage, fight with the dragon </p>
+            <p>but ... </p>
+            <br />
+            <p>Now the dragon has two hostages!</p>
+            </div> 
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div> 
+        </div>
+
+          <div id="121runAway" class="step slide" data-x="-6000" data-y="-1000">
+            <div class="slide-text">
+
+            <p>You run away… as fast as you can… </p>
+            <p>But the dragon hears you and flight after you breathing fire</p>
+            <br />
+            <p>until you get disintegrated!</p>
+            </div> 
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div> 
+        </div>
+
+        
     </div>
 
     <!-- JavaScript Section -->
